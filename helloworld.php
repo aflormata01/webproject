@@ -1,16 +1,13 @@
 <html>
 <head>
-	<title>HELLO WORLD!</title>
-</head>
+<title>Hello World App</title>
 <body>
-<?php
-
-$ctr;
-
-for( $i = 1; $i<7; $i++ ) {
-            
-			echo "<h".$ctr."> HELLO WORLD! </h".$ctr.">";
-         
+<?php 
+for($ctr=1;$ctr<=6;$ctr++)
+{
+	echo "<h$ctr>Hello World</h$ctr>";
+}
 ?>
 </body>
+</head>
 </html>
